@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Credit Card Approval Prediction</title>
+
+    <link rel="stylesheet" href="/static/css/style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body class="home-page">
+
+    <div class="background-blur"></div>
+
+    <div class="home-container">
+
+        <div class="hero">
+
+            <!-- Left Side -->
+            <div class="hero-left">
+
+                <div class="badge">
+                    AI • Machine Learning • Real-Time Decision Support
+                </div>
+
+                <h1>
+                    Credit Card <br> Approval Prediction
+                </h1>
+
+                <div class="hero-description">
+                    The Credit Card Approval Prediction System is an AI-powered web application designed to estimate an applicant's credit card eligibility.
+                </div>
+
+                <div class="features">
+
+                    <div class="feature">
+                        <i class="fa-solid fa-building-columns"></i> Automates Credit Card Approval Screening
+                    </div>
+
+                    <div class="feature">
+                        <i class="fa-solid fa-triangle-exclamation"></i> Identifies High-Risk Applicants
+                    </div>
+
+                    <div class="feature">
+                        <i class="fa-solid fa-user-check"></i> Customer Self-Eligibility Check
+                    </div>
+
+                    <div class="feature">
+                        <i class="fa-solid fa-chart-line"></i> Instant Approval or Rejection Prediction
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="hero-right">
+
+                <div class="card-preview">
+
+                    <div class="chip"></div>
+
+                    <div class="card-number">
+                        **** **** **** 1234
+                    </div>
+
+                    <div class="card-bottom">
+                        <span>AI Banking</span>
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+
+                </div>
+
+                <div class="button-center">
+                    <a href="{{ url_for('prediction') }}" class="start-btn">
+                        <i class="fa-solid fa-play"></i> Start Prediction
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
